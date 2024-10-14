@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MatatuPap</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button_text">Log In</string>
+    <string name="sign_up_phone_number_hint">Phone Number</string>
+    <string name="sign_up_password_hint">Password</string>
+    <string name="sign_up_button_text">Sign Up</string>
+
+    <!-- Additional strings for splash screen -->
+    <string name="splash_welcome_text">Welcome to MatatuPap</string>
+    <string name="app_logo_description">App Logo</string>
+</resources>
