@@ -27,6 +27,9 @@
     <string name="changed_price_per_stage_text">Changed Price Per Stage:</string>
     <string name="change_price_text">Change Price:</string>
     <string name="calculated_price_text">Unchangable Fair Amount:</string>
+    <string name="pay_fair_amount_text">PAY</string>
+
+
 
     <string name="user_sign_up_text">User Sign Up</string>
     <string name="user_log_in_text">User Log In</string>
