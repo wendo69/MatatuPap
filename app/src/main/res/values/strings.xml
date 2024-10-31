@@ -14,7 +14,7 @@
     <string name="add_bus_text">Add Bus into Sacco</string>
     <string name="remove_bus_text">Remove Existing Bus</string>
     <string name="add_route_text">Add Route</string>
-    <string name="change_route_prices_text">Change Route Prices</string>
+    <string name="change_route_prices_text">Choose Commuting Route</string>
 
     <string name="add_new_bus_text">Add New Bus</string>
     <string name="add_new_number_plate_text">Add Number Plate:</string>
@@ -26,6 +26,7 @@
     <string name="price_per_stage_text">Price Per Stage:</string>
     <string name="changed_price_per_stage_text">Changed Price Per Stage:</string>
     <string name="change_price_text">Change Price:</string>
+    <string name="calculated_price_text">Unchangable Fair Amount:</string>
 
     <string name="user_sign_up_text">User Sign Up</string>
     <string name="user_log_in_text">User Log In</string>
