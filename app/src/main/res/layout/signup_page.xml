@@ -84,7 +84,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center|top"
             android:layout_margin="20dp"
-            android:text="@string/sacco_sign_up_text"
+            android:text="@string/user_sign_up_text"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF"
             android:textSize="50sp"
