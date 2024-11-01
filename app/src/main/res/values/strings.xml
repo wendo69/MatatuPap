@@ -28,7 +28,7 @@
     <string name="change_price_text">Change Price:</string>
     <string name="calculated_price_text">Unchangable Fair Amount:</string>
     <string name="pay_fair_amount_text">PAY</string>
-
+    <string name="stk_number_text">Enter MPESA Payment number:</string>
 
 
     <string name="user_sign_up_text">User Sign Up</string>
