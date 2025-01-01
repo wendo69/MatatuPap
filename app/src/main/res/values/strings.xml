@@ -1,4 +1,8 @@
 <resources>
+    //API_KEY
+    <string name="google_maps_api_key">AIzaSyB6c8CH2zz0Z27o_MWBqgfgtXXF-rKOZdg</string>
+
+    //Other text used in the app
     <string name="home_icon_text">Home Icon</string>
     <string name="home_icon_description">Navigate to your home screen</string>
 
@@ -8,33 +12,29 @@
     <string name="profile_icon_text">Profile Icon</string>
     <string name="profile_icon_description">Access and edit your profile</string>
 
-    <string name="app_name_text">MatatuPap App</string>
-    <string name="greetings_text">Greetings Dear User</string>
+    <string name="app_name_text">Matatu-Pap \n Admin App</string>
+    <string name="greetings_text">Greetings, User</string>
 
     <string name="add_bus_text">Add Bus into Sacco</string>
-    <string name="remove_bus_text">Remove Existing Bus</string>
+    <string name="remove_bus_text">Remove Or Update Bus</string>
     <string name="add_route_text">Add Route</string>
-    <string name="change_route_prices_text">Choose Commuting Route</string>
+    <string name="change_route_prices_text">Change Route Prices or Name</string>
 
     <string name="add_new_bus_text">Add New Bus</string>
     <string name="add_new_number_plate_text">Add Number Plate:</string>
-    <string name="add_new_number_plate_txt">Add Number Plate</string>
-    <string name="add_route_start_text">Add Route Start:</string>
-    <string name="add_route_end_text">Add Route End:</string>
+    <string name="add_route_start_text">Add Route:</string>
+    <string name="add_code_text">Add Bus Code:</string>
+    <string name="add_payment_method_text">Choose Payment Method:</string>
     <string name="add_bus_txt">Add Bus</string>
     <string name="stages_between_text">Add Stages Between \n Separate with commas</string>
     <string name="price_per_stage_text">Price Per Stage:</string>
     <string name="changed_price_per_stage_text">Changed Price Per Stage:</string>
-    <string name="change_price_text">Change Price:</string>
-    <string name="calculated_price_text">Unchangable Fair Amount:</string>
-    <string name="pay_fair_amount_text">PAY</string>
-    <string name="stk_number_text">Enter MPESA Payment number:</string>
 
 
-    <string name="user_sign_up_text">User Sign Up</string>
-    <string name="user_log_in_text">User Log In</string>
-    <string name="user_name_text">User Name:</string>
-    <string name="user_email_text">User Email:</string>
+    <string name="sacco_sign_up_text">Sacco Sign Up</string>
+    <string name="sacco_log_in_text">Sacco Log In</string>
+    <string name="sacco_name_text">Sacco Name:</string>
+    <string name="sacco_email_text">Sacco Email:</string>
     <string name="password_text">Password:</string>
     <string name="sacco_sign_up_txt">Sign Up:</string>
     <string name="sacco_signup_txt">Don\'t have an Account?  Sign Up</string>
@@ -42,8 +42,7 @@
 
     <string name="search_bus_text">Search Bus Number Plate</string>
     <string name="bus_plate_text">Bus Plate</string>
-    <string name="route_start_text">Route Start</string>
-    <string name="route_end_text">Route End</string>
+    <string name="route_name_text">Route Name</string>
 
     <string name="customer_info_text">Customer Info:</string>
     <string name="edit_password_text">Edit Password</string>
@@ -59,4 +58,64 @@
 
     <string name="search_payment_text">Search Payments</string>
 
+    <string name="greeting_text">Greetings, %1$s</string>
+
+    <string name="route_start">Route Start</string>
+    <string name="route_end">Route End</string>
+    <string name="route_stage">Stage</string>
+
+    <string name="instruction_route_start">Pin Route Start on the Map</string>
+
+    <string name="instruction_route_end">Pin Route End on the Map</string>
+
+    <string name="instruction_route_stage">Pin Atleast 5 Stages on the Map</string>
+
+    <string name="adding_route_instruction_txt">TAP ROUTE START, ROUTE END AND STAGE ABOVE TO PIN LOCATION ON MAP</string>
+
+    <string name="remove_stages_btn_txt">Remove Stage</string>
+    <string name="confirm_route_btn_txt">Add Route</string>
+
+    <string name="naming_fragment_instructions">TAP CHANGE ROUTE TO GO BACK AND CHANGE ROUTE. TAP NAME ROUTE TO CONTINUE</string>
+
+    <string name="name_route_btn_txt">Change Route</string>
+    <string name="back_to_add_route_btn_txt">Name Route</string>
+
+    <string name="add_route_txt">Add New Route</string>
+
+    <string name="route_start_txt">Name of Route Start:</string>
+    <string name="route_start_instruction_txt">name of the route start stage</string>
+    <string name="route_end_txt">Name of Route End:</string>
+    <string name="route_end_instruction_txt">name of the route end stage</string>
+    <string name="route_fair_txt">Add Fair For Route:</string>
+    <string name="route_fair_instruction_txt">eg. 100</string>
+    <string name="add_route_btn_txt">Add Route</string>
+
+    <string name="update_btn_txt">UPDATE</string>
+
+    <string name="update_btn_text">UPDATE BUS</string>
+    <string name="update_bus_txt">Update Bus Details</string>
+
+    <string name="update_btn_text_small">Update Bus</string>
+
+
+    <string name="add_bus_example_txt">eg: KAA 123J</string>
+    <string name="add_code_example_txt">eg: 1234</string>
+
+    <string name="bus_plate_txt">Number Plate:</string>
+    <string name="choose_route_txt">Choose Route:</string>
+    <string name="bus_code_txt">Bus Code:</string>
+    <string name="bus_payment_txt">Payment Method:</string>
+
+    <string name="search_route_text">Search Route Name</string>
+
+    <string name="fair_price_text">Fair Price</string>
+
+    <string name="delete_route_warning_text">DELETING THIS ROUTE WILL AFFECT ALL BUSES WITH THIS ROUTE.</string>
+    <string name="cancel_delete_route_text">Back</string>
+
+    <string name="sacco_name_instructions">add sacco name</string>
+    <string name="sacco_pass_instructions">at-least 6 letters long</string>
+    <string name="sacco_email_instructions">eg: sacco@email.com</string>
+
+    <string name="continue_delete_route_text">DELETE</string>
 </resources>

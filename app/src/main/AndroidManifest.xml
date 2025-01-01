@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
 
     <application
         android:allowBackup="true"
@@ -14,23 +18,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MatatuPapAdminApp"
         tools:targetApi="31">
+        <activity android:name=".LoginActivity" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".SplashScreenActivity"
             android:exported="true"
-            android:theme="@style/Theme.MatatuPapAdminApp">
+            android:theme="@style/Theme.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".AddRoutePageActivity" />
-        <activity android:name=".AddBusPageActivity" />
-        <activity android:name=".ChangeRoutePageActivity" />
-        <activity android:name=".RemoveBusPageActivity" />
+        <activity android:name=".AddBusActivity" />
+        <activity android:name=".ChangeRoutePricesOrNameActivity" />
+        <activity android:name=".RemoveOrUpdateBusActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".ReceiptsActivity" />
+        <activity android:name=".NameRouteActivity" />
+        <activity android:name=".UpdateBusActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_api_key" />
+
+        <meta-data
+            android:name="com.example.matatupapadminapp.DIRECTIONS_API_KEY"
+            android:value="@string/google_maps_api_key" />
+
     </application>
 
 </manifest>
